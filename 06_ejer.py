@@ -11,16 +11,16 @@ intentos = random.randrange(1, 5)
 fallo = random.randrange(5, 20)
 
 if password != confirmacion:
-    intentos = 1
-    while intentos < 4:
+#   intentos = 1
+    while intentos < 6:
         print("La contraseña es incorrecta")
         password = input("Escriba su contraseña: ")
         confirmacion = input("Confirme la contraseña: ")
         intentos += 1
-        if intentos > 2:
+        if intentos > 4:
             break
     print(f"Ha cosumido demasiados intentos debe esperar {fallo} minutos")
     
 else:
-    print("La contraseña es correcta puede pasar")          
+    print("La contraseña es correcta puede pasar")              
 
