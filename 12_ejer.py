@@ -1,4 +1,4 @@
-# Software que permita refistrarse a un usuario 
+# Software que permita registrarse a un usuario 
 # con nombre, apellidos, dni, dirección, email y contraseña.
 
 print("Registrese como usuario")
