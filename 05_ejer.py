@@ -1,4 +1,4 @@
-# Software que permita obtener el número de cifras que contiene un número entero
+# Software que permita obtener el número de cifras que contiene un número entero (sin usar la funcion len())
 
 n = int(input("Escribe un numero: "))
 cifras = 0
